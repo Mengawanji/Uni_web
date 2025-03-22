@@ -7,7 +7,7 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 70%), rgba(4, 9, 30, 70%)), url(Uni_images/banner.png);
+  background-image: linear-gradient(rgba(4, 9, 30, 70%), rgba(4, 9, 30, 70%)), url("Uni_images/banner.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -30,7 +30,7 @@ nav img {
 }
 
 .nav-links ul li {
-  list-style: none; 
+  list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
@@ -100,11 +100,11 @@ nav .fa {
 
 @media (max-width: 700px) {
   .text-box h1 {
-      font-size: 20px;
-   }
+    font-size: 20px;
+  }
   .nav-links ul li {
-      display: block;
-   }
+    display: block;
+  }
   .nav-links {
     position: absolute;
     background: #f44336;
@@ -149,13 +149,13 @@ p {
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  padding: 10px;   
+  padding: 10px;
 }
 
 .row {
   margin-top: 5%;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .course-col {
@@ -175,7 +175,7 @@ h3 {
 }
 
 .course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 20%); 
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 20%);
 }
 
 @media (max-width: 700px) {
@@ -258,7 +258,7 @@ h3 {
   border-radius: 10px;  
 }
 
-.facilities-col p{
+.facilities-col p {
   padding: 0;
 }
 
@@ -316,7 +316,7 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%)),url(Uni_images/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%)),url("Uni_images/banner2.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -331,7 +331,7 @@ h3 {
 }
 
 @media (max-width: 700px) {
-  .cta h1{
+  .cta h1 {
     font-size: 24px;
   }
 }
@@ -340,7 +340,7 @@ h3 {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-} 
+}
 
 .footer h4 {
   margin-bottom: 25px;
