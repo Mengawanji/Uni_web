@@ -130,7 +130,6 @@ nav .fa {
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
-
   }
 
   .nav-links ul {
@@ -179,7 +178,7 @@ h3 {
 }
 
 @media (max-width: 700px) {
-  .row{
+  .row {
     flex-direction: column;
   }
 }
@@ -190,6 +189,7 @@ h3 {
   margin: auto;
   text-align: center;
   padding-top: 50px;
+
 }
 
 .campus-col {
